@@ -8,5 +8,440 @@
       "printTOC": "[{ chapter, page }]",
       "audioTOC": "[{ chapter, timestamp }]"
     }
+  },
+  "9780593820261-first-ace-edition": {
+    "editionKey": "9780593820261-first-ace-edition",
+    "title": "Carl's Doomsday Scenario",
+    "author": "Matt Diniman",
+    "isbn": "9780593820261",
+    "edition": "First Ace Edition",
+    "year": "2024",
+    "audioFormat": "audible",
+    "totalPages": 351,
+    "syncMap": [
+      {
+        "page": 1,
+        "chapter": "1",
+        "seconds": 20,
+        "_matchType": "key",
+        "chapterIndex": 0,
+        "_audioChapter": "1"
+      },
+      {
+        "page": 15,
+        "chapter": "2",
+        "seconds": 1532,
+        "_matchType": "key",
+        "chapterIndex": 1,
+        "_audioChapter": "2"
+      },
+      {
+        "page": 31,
+        "chapter": "3",
+        "seconds": 3325,
+        "_matchType": "key",
+        "chapterIndex": 2,
+        "_audioChapter": "3"
+      },
+      {
+        "page": 38,
+        "chapter": "4",
+        "seconds": 4206,
+        "_matchType": "key",
+        "chapterIndex": 3,
+        "_audioChapter": "4"
+      },
+      {
+        "page": 48,
+        "chapter": "5",
+        "seconds": 5256,
+        "_matchType": "key",
+        "chapterIndex": 4,
+        "_audioChapter": "5"
+      },
+      {
+        "page": 59,
+        "chapter": "6",
+        "seconds": 6423,
+        "_matchType": "key",
+        "chapterIndex": 5,
+        "_audioChapter": "6"
+      },
+      {
+        "page": 74,
+        "chapter": "7",
+        "seconds": 8142,
+        "_matchType": "key",
+        "chapterIndex": 6,
+        "_audioChapter": "7"
+      },
+      {
+        "page": 91,
+        "chapter": "8",
+        "seconds": 10086,
+        "_matchType": "key",
+        "chapterIndex": 7,
+        "_audioChapter": "8"
+      },
+      {
+        "page": 194,
+        "chapter": "9",
+        "seconds": 11623,
+        "_matchType": "key",
+        "chapterIndex": 8,
+        "_audioChapter": "9"
+      },
+      {
+        "page": 119,
+        "chapter": "10",
+        "seconds": 13405,
+        "_matchType": "key",
+        "chapterIndex": 9,
+        "_audioChapter": "10"
+      },
+      {
+        "page": 130,
+        "chapter": "11",
+        "seconds": 14704,
+        "_matchType": "key",
+        "chapterIndex": 10,
+        "_audioChapter": "11"
+      },
+      {
+        "page": 139,
+        "chapter": "12",
+        "seconds": 15796,
+        "_matchType": "key",
+        "chapterIndex": 11,
+        "_audioChapter": "12"
+      },
+      {
+        "page": 152,
+        "chapter": "13",
+        "seconds": 17231,
+        "_matchType": "key",
+        "chapterIndex": 12,
+        "_audioChapter": "13"
+      },
+      {
+        "page": 163,
+        "chapter": "14",
+        "seconds": 18412,
+        "_matchType": "key",
+        "chapterIndex": 13,
+        "_audioChapter": "14"
+      },
+      {
+        "page": 178,
+        "chapter": "15",
+        "seconds": 20207,
+        "_matchType": "key",
+        "chapterIndex": 14,
+        "_audioChapter": "15"
+      },
+      {
+        "page": 192,
+        "chapter": "16",
+        "seconds": 21924,
+        "_matchType": "key",
+        "chapterIndex": 15,
+        "_audioChapter": "16"
+      },
+      {
+        "page": 200,
+        "chapter": "17",
+        "seconds": 22894,
+        "_matchType": "key",
+        "chapterIndex": 16,
+        "_audioChapter": "17"
+      },
+      {
+        "page": 218,
+        "chapter": "18",
+        "seconds": 25014,
+        "_matchType": "key",
+        "chapterIndex": 17,
+        "_audioChapter": "18"
+      },
+      {
+        "page": 19,
+        "chapter": "19",
+        "seconds": 26868,
+        "_matchType": "key",
+        "chapterIndex": 18,
+        "_audioChapter": "19"
+      },
+      {
+        "page": 253,
+        "chapter": "20",
+        "seconds": 29173,
+        "_matchType": "key",
+        "chapterIndex": 19,
+        "_audioChapter": "20"
+      },
+      {
+        "page": 270,
+        "chapter": "21",
+        "seconds": 31288,
+        "_matchType": "key",
+        "chapterIndex": 20,
+        "_audioChapter": "21"
+      },
+      {
+        "page": 289,
+        "chapter": "22",
+        "seconds": 33355,
+        "_matchType": "key",
+        "chapterIndex": 21,
+        "_audioChapter": "22"
+      },
+      {
+        "page": 304,
+        "chapter": "23",
+        "seconds": 35285,
+        "_matchType": "key",
+        "chapterIndex": 22,
+        "_audioChapter": "23"
+      },
+      {
+        "page": 315,
+        "chapter": "24",
+        "seconds": 36524,
+        "_matchType": "key",
+        "chapterIndex": 23,
+        "_audioChapter": "24"
+      },
+      {
+        "page": 329,
+        "chapter": "25",
+        "seconds": 38273,
+        "_matchType": "key",
+        "chapterIndex": 24,
+        "_audioChapter": "25"
+      },
+      {
+        "page": 340,
+        "chapter": "Epilogue",
+        "seconds": 39430,
+        "_matchType": "key",
+        "chapterIndex": 25,
+        "_audioChapter": "Epilogue"
+      }
+    ],
+    "printTOC": [
+      {
+        "page": "1",
+        "chapter": "1"
+      },
+      {
+        "page": "15",
+        "chapter": "2"
+      },
+      {
+        "page": "31",
+        "chapter": "3"
+      },
+      {
+        "page": "38",
+        "chapter": "4"
+      },
+      {
+        "page": "48",
+        "chapter": "5"
+      },
+      {
+        "page": "59",
+        "chapter": "6"
+      },
+      {
+        "page": "74",
+        "chapter": "7"
+      },
+      {
+        "page": "91",
+        "chapter": "8"
+      },
+      {
+        "page": "194",
+        "chapter": "9"
+      },
+      {
+        "page": "119",
+        "chapter": "10"
+      },
+      {
+        "page": "130",
+        "chapter": "11"
+      },
+      {
+        "page": "139",
+        "chapter": "12"
+      },
+      {
+        "page": "152",
+        "chapter": "13"
+      },
+      {
+        "page": "163",
+        "chapter": "14"
+      },
+      {
+        "page": "178",
+        "chapter": "15"
+      },
+      {
+        "page": "192",
+        "chapter": "16"
+      },
+      {
+        "page": "200",
+        "chapter": "17"
+      },
+      {
+        "page": "218",
+        "chapter": "18"
+      },
+      {
+        "page": "19",
+        "chapter": "19"
+      },
+      {
+        "page": "253",
+        "chapter": "20"
+      },
+      {
+        "page": "270",
+        "chapter": "21"
+      },
+      {
+        "page": "289",
+        "chapter": "22"
+      },
+      {
+        "page": "304",
+        "chapter": "23"
+      },
+      {
+        "page": "315",
+        "chapter": "24"
+      },
+      {
+        "page": "329",
+        "chapter": "25"
+      },
+      {
+        "page": "340",
+        "chapter": "Epilogue"
+      }
+    ],
+    "audioTOC": [
+      {
+        "chapter": "1",
+        "timestamp": "00:00:20"
+      },
+      {
+        "chapter": "2",
+        "timestamp": "00:25:32"
+      },
+      {
+        "chapter": "3",
+        "timestamp": "00:55:25"
+      },
+      {
+        "chapter": "4",
+        "timestamp": "01:10:06"
+      },
+      {
+        "chapter": "5",
+        "timestamp": "01:27:36"
+      },
+      {
+        "chapter": "6",
+        "timestamp": "01:47:03"
+      },
+      {
+        "chapter": "7",
+        "timestamp": "02:15:42"
+      },
+      {
+        "chapter": "8",
+        "timestamp": "02:48:06"
+      },
+      {
+        "chapter": "9",
+        "timestamp": "03:13:43"
+      },
+      {
+        "chapter": "10",
+        "timestamp": "03:43:25"
+      },
+      {
+        "chapter": "11",
+        "timestamp": "04:05:04"
+      },
+      {
+        "chapter": "12",
+        "timestamp": "04:23:16"
+      },
+      {
+        "chapter": "13",
+        "timestamp": "04:47:11"
+      },
+      {
+        "chapter": "14",
+        "timestamp": "05:06:52"
+      },
+      {
+        "chapter": "15",
+        "timestamp": "05:36:47"
+      },
+      {
+        "chapter": "16",
+        "timestamp": "06:05:24"
+      },
+      {
+        "chapter": "17",
+        "timestamp": "06:21:34"
+      },
+      {
+        "chapter": "18",
+        "timestamp": "06:56:54"
+      },
+      {
+        "chapter": "19",
+        "timestamp": "07:27:48"
+      },
+      {
+        "chapter": "20",
+        "timestamp": "08:06:13"
+      },
+      {
+        "chapter": "21",
+        "timestamp": "08:41:28"
+      },
+      {
+        "chapter": "22",
+        "timestamp": "09:15:55"
+      },
+      {
+        "chapter": "23",
+        "timestamp": "09:48:05"
+      },
+      {
+        "chapter": "24",
+        "timestamp": "10:08:44"
+      },
+      {
+        "chapter": "25",
+        "timestamp": "10:37:53"
+      },
+      {
+        "chapter": "Epilogue",
+        "timestamp": "10:57:10"
+      }
+    ],
+    "contributedBy": "scadams1111@gmail.com",
+    "contributedAt": "2026-03-16T17:26:41.260Z",
+    "priorAnchorCount": 0
   }
 }
