@@ -1,0 +1,12 @@
+{
+  "_meta": {
+    "version": 1,
+    "description": "PageSync community sync database — edition sync maps contributed by users",
+    "schema": {
+      "key": "editionKey (e.g. isbn13:9780451206817)",
+      "syncMap": "[{ page, seconds }] — piecewise linear interpolation anchors",
+      "printTOC": "[{ chapter, page }]",
+      "audioTOC": "[{ chapter, timestamp }]"
+    }
+  }
+}
