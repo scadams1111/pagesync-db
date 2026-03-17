@@ -8,5 +8,152 @@
       "readingFormat": "physical | kindle | other-ebook",
       "audioFormat": "libby | audible"
     }
+  },
+  "9781416516934": {
+    "editionKey": "9781416516934",
+    "title": "Wolves of the Calla",
+    "author": "Stephen King",
+    "isbn": "9781416516934",
+    "edition": "Pocket Books premium paperback",
+    "year": "2006",
+    "audioFormat": "libby",
+    "totalPages": 926,
+    "audioDurationSecs": 91395,
+    "readingFormat": "physical",
+    "syncMap": [
+      {
+        "page": 22,
+        "chapter": "Prologue: Roont",
+        "seconds": 0
+      },
+      {
+        "page": 45,
+        "chapter": "Chapter I: The Face on the Water",
+        "seconds": 4524
+      },
+      {
+        "page": 62,
+        "chapter": "Chapter II: New York Groove",
+        "seconds": 7200
+      },
+      {
+        "page": 91,
+        "chapter": "Chapter III: Mia",
+        "seconds": 8927
+      },
+      {
+        "page": 114,
+        "chapter": "Chapter IV: Palaver",
+        "seconds": 11400
+      },
+      {
+        "page": 156,
+        "chapter": "Chapter V: Overholser",
+        "seconds": 13379
+      },
+      {
+        "page": 174,
+        "chapter": "Chapter VI: The Way of the Eld",
+        "seconds": 17607
+      },
+      {
+        "page": 209,
+        "chapter": "Chapter VII: Todash",
+        "seconds": 21094
+      },
+      {
+        "page": 261,
+        "chapter": "Part 2 - Chapter I: The Pavilion",
+        "seconds": 26186
+      },
+      {
+        "page": 312,
+        "chapter": "Part 2 - Chapter II: Dry Twist",
+        "seconds": 31372
+      },
+      {
+        "page": 329,
+        "chapter": "Part 2 - Chapter III: The Priest's Tale (New York)",
+        "seconds": 32971
+      },
+      {
+        "page": 384,
+        "chapter": "Part 2 - Chapter IV: The Priest's Tale Continued (Highways in Hiding)",
+        "seconds": 38811
+      },
+      {
+        "page": 413,
+        "chapter": "Part 2 - Chapter V: The Tale of Gray Dick",
+        "seconds": 41911
+      },
+      {
+        "page": 445,
+        "chapter": "Part 2 - Chapter VI: Gran-Pere's Tale",
+        "seconds": 45050
+      },
+      {
+        "page": 479,
+        "chapter": "Part 2 - Chapter VII: Nocturne, Hunger",
+        "seconds": 48559
+      },
+      {
+        "page": 502,
+        "chapter": "Part 2 - Chapter VIII: Took's Store; The Unfound Door",
+        "seconds": 50861
+      },
+      {
+        "page": 540,
+        "chapter": "Part 2 - Chapter IX: The Priest's Tale Concluded (Unfound)",
+        "seconds": 54715
+      },
+      {
+        "page": 617,
+        "chapter": "Part 3 - Chapter I: Secrets",
+        "seconds": 62880
+      },
+      {
+        "page": 657,
+        "chapter": "Part 3 - Chapter II: The Dogan, Part 1",
+        "seconds": 66847
+      },
+      {
+        "page": 719,
+        "chapter": "Part 3 - Chapter III: The Dogan, Part 2",
+        "seconds": 72778
+      },
+      {
+        "page": 757,
+        "chapter": "Part 3 - Chapter IV: The Pied Piper",
+        "seconds": 76519
+      },
+      {
+        "page": 783,
+        "chapter": "Part 3 - Chapter V: The Meeting of the Folken",
+        "seconds": 78962
+      },
+      {
+        "page": 797,
+        "chapter": "Part 3 - Chapter V: The Meeting of the Folken (cont.)",
+        "seconds": 80450
+      },
+      {
+        "page": 806,
+        "chapter": "Part 3 - Chapter VI: Before the Storm",
+        "seconds": 81272
+      },
+      {
+        "page": 852,
+        "chapter": "Part 3 - Chapter VII: The Wolves",
+        "seconds": 85803
+      },
+      {
+        "page": 911,
+        "chapter": "Epilogue: The Doorway Cave",
+        "seconds": 91395
+      }
+    ],
+    "contributedBy": "scadams1111@gmail.com",
+    "contributedAt": "2026-03-17T17:22:12.148Z",
+    "priorAnchorCount": 0
   }
 }
