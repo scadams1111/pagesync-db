@@ -155,5 +155,182 @@
     "contributedBy": "scadams1111@gmail.com",
     "contributedAt": "2026-03-17T17:22:12.148Z",
     "priorAnchorCount": 0
+  },
+  "9781423103349-hyperion-paperback-edition": {
+    "editionKey": "9781423103349-hyperion-paperback-edition",
+    "title": "The Sea of Monsters",
+    "author": "Rick Riordan",
+    "isbn": "9781423103349",
+    "edition": "Hyperion Paperback Edition",
+    "year": "2007",
+    "audioFormat": "audible",
+    "totalPages": 279,
+    "audioDurationSecs": 28500,
+    "readingFormat": "physical",
+    "syncMap": [
+      {
+        "page": 1,
+        "chapter": "1. My Best Friend Shops for a Wedding Dress",
+        "seconds": 17,
+        "_matchType": "key",
+        "chapterIndex": 0,
+        "_audioChapter": "Chapter One: My Best Friend Shops for a Wedding Dress"
+      },
+      {
+        "page": 8,
+        "chapter": "2. I Play Dodgeball with Cannibals",
+        "seconds": 748,
+        "_matchType": "key",
+        "chapterIndex": 1,
+        "_audioChapter": "Chapter Two: I Play Dodgeball with Cannibals"
+      },
+      {
+        "page": 25,
+        "chapter": "3. We Hail the Taxi of Eternal Tormen",
+        "seconds": 2515,
+        "_matchType": "key",
+        "chapterIndex": 2,
+        "_audioChapter": "Chapter Three: We Hail the Taxi of Eternal Torment"
+      },
+      {
+        "page": 38,
+        "chapter": "4. Tyson Plays with Fire",
+        "seconds": 3809,
+        "_matchType": "key",
+        "chapterIndex": 3,
+        "_audioChapter": "Chapter Four: Tyson Plays with Fire"
+      },
+      {
+        "page": 48,
+        "chapter": "5. I Get a New Cabin Mate",
+        "seconds": 4844,
+        "_matchType": "key",
+        "chapterIndex": 4,
+        "_audioChapter": "Chapter Five: I Get a New Cabin Mate"
+      },
+      {
+        "page": 66,
+        "chapter": "6. Demon Pigeons Attack",
+        "seconds": 6734,
+        "_matchType": "key",
+        "chapterIndex": 5,
+        "_audioChapter": "Chapter Six: Demon Pigeons Attack"
+      },
+      {
+        "page": 85,
+        "chapter": "7. I Accept Gifts from a Stranger",
+        "seconds": 8667,
+        "_matchType": "key",
+        "chapterIndex": 6,
+        "_audioChapter": "Chapter Seven: I Accept Gifts from a Stranger"
+      },
+      {
+        "page": 107,
+        "chapter": "8. We Board the Princess Andromeda",
+        "seconds": 10954,
+        "_matchType": "key",
+        "chapterIndex": 7,
+        "_audioChapter": "Chapter Eight: We Board the Princess Andromeda"
+      },
+      {
+        "page": 121,
+        "chapter": "9. I Have the Worst Family Reunion Ever",
+        "seconds": 12429,
+        "_matchType": "key",
+        "chapterIndex": 8,
+        "_audioChapter": "Chapter Nine: I Have the Worst Family Reunion Ever"
+      },
+      {
+        "page": 134,
+        "chapter": "10. We Hitch a Ride with Dead Confederates",
+        "seconds": 13757,
+        "_matchType": "key",
+        "chapterIndex": 9,
+        "_audioChapter": "Chapter Ten: We Hitch a Ride with Dead Confederates"
+      },
+      {
+        "page": 148,
+        "chapter": "11. Clarisse Blows Up Everything",
+        "seconds": 15165,
+        "_matchType": "key",
+        "chapterIndex": 10,
+        "_audioChapter": "Chapter Eleven: Clarisse Blows Up Everything"
+      },
+      {
+        "page": 165,
+        "chapter": "12. We Check In to C.C.'s Spa & Resort",
+        "seconds": 16938,
+        "_matchType": "key",
+        "chapterIndex": 11,
+        "_audioChapter": "Chapter Twelve: We Check In to CC's Spa and Resort"
+      },
+      {
+        "page": 186,
+        "chapter": "13. Annabeth Tries to Swim Home",
+        "seconds": 19108,
+        "_matchType": "key",
+        "chapterIndex": 12,
+        "_audioChapter": "Chapter Thirteen: Annabeth Tries to Swim Home"
+      },
+      {
+        "page": 202,
+        "chapter": "14. We Meet the Sheep of Doom",
+        "seconds": 20765,
+        "_matchType": "key",
+        "chapterIndex": 13,
+        "_audioChapter": "Chapter Fourteen: We Meet the Sheep of Doom"
+      },
+      {
+        "page": 215,
+        "chapter": "15. Nobody Gets the Fleece",
+        "seconds": 22105,
+        "_matchType": "key",
+        "chapterIndex": 14,
+        "_audioChapter": "Chapter Fifteen: Nobody Gets the Fleece"
+      },
+      {
+        "page": 225,
+        "chapter": "16. I Go Down with the Ship",
+        "seconds": 23114,
+        "_matchType": "key",
+        "chapterIndex": 15,
+        "_audioChapter": "Chapter Sixteen: I Go Down with the Ship"
+      },
+      {
+        "page": 232,
+        "chapter": "17. We Get a Surprise on Miami Beach",
+        "seconds": 23785,
+        "_matchType": "key",
+        "chapterIndex": 16,
+        "_audioChapter": "Chapter Seventeen: We Get a Surprise on Miami Beach"
+      },
+      {
+        "page": 242,
+        "chapter": "18. The Party Ponies Invade",
+        "seconds": 24765,
+        "_matchType": "key",
+        "chapterIndex": 17,
+        "_audioChapter": "Chapter Eighteen: The Party Ponies Invade"
+      },
+      {
+        "page": 254,
+        "chapter": "19. The Chariot Race Ends with a Bang",
+        "seconds": 25985,
+        "_matchType": "key",
+        "chapterIndex": 18,
+        "_audioChapter": "Chapter Nineteen: The Chariot Race Ends with a Bang"
+      },
+      {
+        "page": 270,
+        "chapter": "20. The Fleece Works Its Magic Too Well",
+        "seconds": 27507,
+        "_matchType": "key",
+        "chapterIndex": 19,
+        "_audioChapter": "Chapter Twenty: The Fleece Works Its Magic Too Well"
+      }
+    ],
+    "contributedBy": "scadams1111@gmail.com",
+    "contributedAt": "2026-03-17T17:22:45.368Z",
+    "priorAnchorCount": 0
   }
 }
