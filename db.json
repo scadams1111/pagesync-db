@@ -4,9 +4,12 @@
     "description": "PageSync community sync database — edition sync maps contributed by users",
     "schema": {
       "key": "editionKey (ISBN)",
-      "syncMap": "[{ chapter, page, seconds }]",
-      "readingFormat": "physical | kindle | other-ebook",
-      "audioFormat": "libby | audible"
+      "syncMap": "[{ chapter, page, seconds, chapterIndex }]",
+      "readingFormat": "physical | ebook",
+      "audioFormat": "libby | audible",
+      "audioStartPage": "optional — first page of omnibus coverage",
+      "audioEndPage": "optional — last page of omnibus coverage",
+      "audioBookNumber": "optional — which book in the omnibus (1, 2, 3...)"
     }
   },
   "9781416516934": {
@@ -20,137 +23,36 @@
     "totalPages": 926,
     "audioDurationSecs": 91395,
     "readingFormat": "physical",
+    "audioStartPage": null,
+    "audioEndPage": null,
+    "audioBookNumber": null,
     "syncMap": [
-      {
-        "page": 22,
-        "chapter": "Prologue: Roont",
-        "seconds": 0
-      },
-      {
-        "page": 45,
-        "chapter": "Chapter I: The Face on the Water",
-        "seconds": 4524
-      },
-      {
-        "page": 62,
-        "chapter": "Chapter II: New York Groove",
-        "seconds": 7200
-      },
-      {
-        "page": 91,
-        "chapter": "Chapter III: Mia",
-        "seconds": 8927
-      },
-      {
-        "page": 114,
-        "chapter": "Chapter IV: Palaver",
-        "seconds": 11400
-      },
-      {
-        "page": 156,
-        "chapter": "Chapter V: Overholser",
-        "seconds": 13379
-      },
-      {
-        "page": 174,
-        "chapter": "Chapter VI: The Way of the Eld",
-        "seconds": 17607
-      },
-      {
-        "page": 209,
-        "chapter": "Chapter VII: Todash",
-        "seconds": 21094
-      },
-      {
-        "page": 261,
-        "chapter": "Part 2 - Chapter I: The Pavilion",
-        "seconds": 26186
-      },
-      {
-        "page": 312,
-        "chapter": "Part 2 - Chapter II: Dry Twist",
-        "seconds": 31372
-      },
-      {
-        "page": 329,
-        "chapter": "Part 2 - Chapter III: The Priest's Tale (New York)",
-        "seconds": 32971
-      },
-      {
-        "page": 384,
-        "chapter": "Part 2 - Chapter IV: The Priest's Tale Continued (Highways in Hiding)",
-        "seconds": 38811
-      },
-      {
-        "page": 413,
-        "chapter": "Part 2 - Chapter V: The Tale of Gray Dick",
-        "seconds": 41911
-      },
-      {
-        "page": 445,
-        "chapter": "Part 2 - Chapter VI: Gran-Pere's Tale",
-        "seconds": 45050
-      },
-      {
-        "page": 479,
-        "chapter": "Part 2 - Chapter VII: Nocturne, Hunger",
-        "seconds": 48559
-      },
-      {
-        "page": 502,
-        "chapter": "Part 2 - Chapter VIII: Took's Store; The Unfound Door",
-        "seconds": 50861
-      },
-      {
-        "page": 540,
-        "chapter": "Part 2 - Chapter IX: The Priest's Tale Concluded (Unfound)",
-        "seconds": 54715
-      },
-      {
-        "page": 617,
-        "chapter": "Part 3 - Chapter I: Secrets",
-        "seconds": 62880
-      },
-      {
-        "page": 657,
-        "chapter": "Part 3 - Chapter II: The Dogan, Part 1",
-        "seconds": 66847
-      },
-      {
-        "page": 719,
-        "chapter": "Part 3 - Chapter III: The Dogan, Part 2",
-        "seconds": 72778
-      },
-      {
-        "page": 757,
-        "chapter": "Part 3 - Chapter IV: The Pied Piper",
-        "seconds": 76519
-      },
-      {
-        "page": 783,
-        "chapter": "Part 3 - Chapter V: The Meeting of the Folken",
-        "seconds": 78962
-      },
-      {
-        "page": 797,
-        "chapter": "Part 3 - Chapter V: The Meeting of the Folken (cont.)",
-        "seconds": 80450
-      },
-      {
-        "page": 806,
-        "chapter": "Part 3 - Chapter VI: Before the Storm",
-        "seconds": 81272
-      },
-      {
-        "page": 852,
-        "chapter": "Part 3 - Chapter VII: The Wolves",
-        "seconds": 85803
-      },
-      {
-        "page": 911,
-        "chapter": "Epilogue: The Doorway Cave",
-        "seconds": 91395
-      }
+      { "chapter": "Prologue: Roont", "page": 22, "seconds": 0 },
+      { "chapter": "Chapter I: The Face on the Water", "page": 45, "seconds": 4524 },
+      { "chapter": "Chapter II: New York Groove", "page": 62, "seconds": 7200 },
+      { "chapter": "Chapter III: Mia", "page": 91, "seconds": 8927 },
+      { "chapter": "Chapter IV: Palaver", "page": 114, "seconds": 11400 },
+      { "chapter": "Chapter V: Overholser", "page": 156, "seconds": 13379 },
+      { "chapter": "Chapter VI: The Way of the Eld", "page": 174, "seconds": 17607 },
+      { "chapter": "Chapter VII: Todash", "page": 209, "seconds": 21094 },
+      { "chapter": "Part 2 - Chapter I: The Pavilion", "page": 261, "seconds": 26186 },
+      { "chapter": "Part 2 - Chapter II: Dry Twist", "page": 312, "seconds": 31372 },
+      { "chapter": "Part 2 - Chapter III: The Priest's Tale (New York)", "page": 329, "seconds": 32971 },
+      { "chapter": "Part 2 - Chapter IV: The Priest's Tale Continued (Highways in Hiding)", "page": 384, "seconds": 38811 },
+      { "chapter": "Part 2 - Chapter V: The Tale of Gray Dick", "page": 413, "seconds": 41911 },
+      { "chapter": "Part 2 - Chapter VI: Gran-Pere's Tale", "page": 445, "seconds": 45050 },
+      { "chapter": "Part 2 - Chapter VII: Nocturne, Hunger", "page": 479, "seconds": 48559 },
+      { "chapter": "Part 2 - Chapter VIII: Took's Store; The Unfound Door", "page": 502, "seconds": 50861 },
+      { "chapter": "Part 2 - Chapter IX: The Priest's Tale Concluded (Unfound)", "page": 540, "seconds": 54715 },
+      { "chapter": "Part 3 - Chapter I: Secrets", "page": 617, "seconds": 62880 },
+      { "chapter": "Part 3 - Chapter II: The Dogan, Part 1", "page": 657, "seconds": 66847 },
+      { "chapter": "Part 3 - Chapter III: The Dogan, Part 2", "page": 719, "seconds": 72778 },
+      { "chapter": "Part 3 - Chapter IV: The Pied Piper", "page": 757, "seconds": 76519 },
+      { "chapter": "Part 3 - Chapter V: The Meeting of the Folken", "page": 783, "seconds": 78962 },
+      { "chapter": "Part 3 - Chapter V: The Meeting of the Folken (cont.)", "page": 797, "seconds": 80450 },
+      { "chapter": "Part 3 - Chapter VI: Before the Storm", "page": 806, "seconds": 81272 },
+      { "chapter": "Part 3 - Chapter VII: The Wolves", "page": 852, "seconds": 85803 },
+      { "chapter": "Epilogue: The Doorway Cave", "page": 911, "seconds": 91395 }
     ],
     "contributedBy": "scadams1111@gmail.com",
     "contributedAt": "2026-03-17T17:22:12.148Z",
@@ -167,167 +69,30 @@
     "totalPages": 279,
     "audioDurationSecs": 28500,
     "readingFormat": "physical",
+    "audioStartPage": null,
+    "audioEndPage": null,
+    "audioBookNumber": null,
     "syncMap": [
-      {
-        "page": 1,
-        "chapter": "1. My Best Friend Shops for a Wedding Dress",
-        "seconds": 17,
-        "_matchType": "key",
-        "chapterIndex": 0,
-        "_audioChapter": "Chapter One: My Best Friend Shops for a Wedding Dress"
-      },
-      {
-        "page": 8,
-        "chapter": "2. I Play Dodgeball with Cannibals",
-        "seconds": 748,
-        "_matchType": "key",
-        "chapterIndex": 1,
-        "_audioChapter": "Chapter Two: I Play Dodgeball with Cannibals"
-      },
-      {
-        "page": 25,
-        "chapter": "3. We Hail the Taxi of Eternal Tormen",
-        "seconds": 2515,
-        "_matchType": "key",
-        "chapterIndex": 2,
-        "_audioChapter": "Chapter Three: We Hail the Taxi of Eternal Torment"
-      },
-      {
-        "page": 38,
-        "chapter": "4. Tyson Plays with Fire",
-        "seconds": 3809,
-        "_matchType": "key",
-        "chapterIndex": 3,
-        "_audioChapter": "Chapter Four: Tyson Plays with Fire"
-      },
-      {
-        "page": 48,
-        "chapter": "5. I Get a New Cabin Mate",
-        "seconds": 4844,
-        "_matchType": "key",
-        "chapterIndex": 4,
-        "_audioChapter": "Chapter Five: I Get a New Cabin Mate"
-      },
-      {
-        "page": 66,
-        "chapter": "6. Demon Pigeons Attack",
-        "seconds": 6734,
-        "_matchType": "key",
-        "chapterIndex": 5,
-        "_audioChapter": "Chapter Six: Demon Pigeons Attack"
-      },
-      {
-        "page": 85,
-        "chapter": "7. I Accept Gifts from a Stranger",
-        "seconds": 8667,
-        "_matchType": "key",
-        "chapterIndex": 6,
-        "_audioChapter": "Chapter Seven: I Accept Gifts from a Stranger"
-      },
-      {
-        "page": 107,
-        "chapter": "8. We Board the Princess Andromeda",
-        "seconds": 10954,
-        "_matchType": "key",
-        "chapterIndex": 7,
-        "_audioChapter": "Chapter Eight: We Board the Princess Andromeda"
-      },
-      {
-        "page": 121,
-        "chapter": "9. I Have the Worst Family Reunion Ever",
-        "seconds": 12429,
-        "_matchType": "key",
-        "chapterIndex": 8,
-        "_audioChapter": "Chapter Nine: I Have the Worst Family Reunion Ever"
-      },
-      {
-        "page": 134,
-        "chapter": "10. We Hitch a Ride with Dead Confederates",
-        "seconds": 13757,
-        "_matchType": "key",
-        "chapterIndex": 9,
-        "_audioChapter": "Chapter Ten: We Hitch a Ride with Dead Confederates"
-      },
-      {
-        "page": 148,
-        "chapter": "11. Clarisse Blows Up Everything",
-        "seconds": 15165,
-        "_matchType": "key",
-        "chapterIndex": 10,
-        "_audioChapter": "Chapter Eleven: Clarisse Blows Up Everything"
-      },
-      {
-        "page": 165,
-        "chapter": "12. We Check In to C.C.'s Spa & Resort",
-        "seconds": 16938,
-        "_matchType": "key",
-        "chapterIndex": 11,
-        "_audioChapter": "Chapter Twelve: We Check In to CC's Spa and Resort"
-      },
-      {
-        "page": 186,
-        "chapter": "13. Annabeth Tries to Swim Home",
-        "seconds": 19108,
-        "_matchType": "key",
-        "chapterIndex": 12,
-        "_audioChapter": "Chapter Thirteen: Annabeth Tries to Swim Home"
-      },
-      {
-        "page": 202,
-        "chapter": "14. We Meet the Sheep of Doom",
-        "seconds": 20765,
-        "_matchType": "key",
-        "chapterIndex": 13,
-        "_audioChapter": "Chapter Fourteen: We Meet the Sheep of Doom"
-      },
-      {
-        "page": 215,
-        "chapter": "15. Nobody Gets the Fleece",
-        "seconds": 22105,
-        "_matchType": "key",
-        "chapterIndex": 14,
-        "_audioChapter": "Chapter Fifteen: Nobody Gets the Fleece"
-      },
-      {
-        "page": 225,
-        "chapter": "16. I Go Down with the Ship",
-        "seconds": 23114,
-        "_matchType": "key",
-        "chapterIndex": 15,
-        "_audioChapter": "Chapter Sixteen: I Go Down with the Ship"
-      },
-      {
-        "page": 232,
-        "chapter": "17. We Get a Surprise on Miami Beach",
-        "seconds": 23785,
-        "_matchType": "key",
-        "chapterIndex": 16,
-        "_audioChapter": "Chapter Seventeen: We Get a Surprise on Miami Beach"
-      },
-      {
-        "page": 242,
-        "chapter": "18. The Party Ponies Invade",
-        "seconds": 24765,
-        "_matchType": "key",
-        "chapterIndex": 17,
-        "_audioChapter": "Chapter Eighteen: The Party Ponies Invade"
-      },
-      {
-        "page": 254,
-        "chapter": "19. The Chariot Race Ends with a Bang",
-        "seconds": 25985,
-        "_matchType": "key",
-        "chapterIndex": 18,
-        "_audioChapter": "Chapter Nineteen: The Chariot Race Ends with a Bang"
-      },
-      {
-        "page": 270,
-        "chapter": "20. The Fleece Works Its Magic Too Well",
-        "seconds": 27507,
-        "_matchType": "key",
-        "chapterIndex": 19,
-        "_audioChapter": "Chapter Twenty: The Fleece Works Its Magic Too Well"
-      }
+      { "chapter": "1. My Best Friend Shops for a Wedding Dress", "page": 1, "seconds": 17, "chapterIndex": 0 },
+      { "chapter": "2. I Play Dodgeball with Cannibals", "page": 8, "seconds": 748, "chapterIndex": 1 },
+      { "chapter": "3. We Hail the Taxi of Eternal Tormen", "page": 25, "seconds": 2515, "chapterIndex": 2 },
+      { "chapter": "4. Tyson Plays with Fire", "page": 38, "seconds": 3809, "chapterIndex": 3 },
+      { "chapter": "5. I Get a New Cabin Mate", "page": 48, "seconds": 4844, "chapterIndex": 4 },
+      { "chapter": "6. Demon Pigeons Attack", "page": 66, "seconds": 6734, "chapterIndex": 5 },
+      { "chapter": "7. I Accept Gifts from a Stranger", "page": 85, "seconds": 8667, "chapterIndex": 6 },
+      { "chapter": "8. We Board the Princess Andromeda", "page": 107, "seconds": 10954, "chapterIndex": 7 },
+      { "chapter": "9. I Have the Worst Family Reunion Ever", "page": 121, "seconds": 12429, "chapterIndex": 8 },
+      { "chapter": "10. We Hitch a Ride with Dead Confederates", "page": 134, "seconds": 13757, "chapterIndex": 9 },
+      { "chapter": "11. Clarisse Blows Up Everything", "page": 148, "seconds": 15165, "chapterIndex": 10 },
+      { "chapter": "12. We Check In to C.C.'s Spa & Resort", "page": 165, "seconds": 16938, "chapterIndex": 11 },
+      { "chapter": "13. Annabeth Tries to Swim Home", "page": 186, "seconds": 19108, "chapterIndex": 12 },
+      { "chapter": "14. We Meet the Sheep of Doom", "page": 202, "seconds": 20765, "chapterIndex": 13 },
+      { "chapter": "15. Nobody Gets the Fleece", "page": 215, "seconds": 22105, "chapterIndex": 14 },
+      { "chapter": "16. I Go Down with the Ship", "page": 225, "seconds": 23114, "chapterIndex": 15 },
+      { "chapter": "17. We Get a Surprise on Miami Beach", "page": 232, "seconds": 23785, "chapterIndex": 16 },
+      { "chapter": "18. The Party Ponies Invade", "page": 242, "seconds": 24765, "chapterIndex": 17 },
+      { "chapter": "19. The Chariot Race Ends with a Bang", "page": 254, "seconds": 25985, "chapterIndex": 18 },
+      { "chapter": "20. The Fleece Works Its Magic Too Well", "page": 270, "seconds": 27507, "chapterIndex": 19 }
     ],
     "contributedBy": "scadams1111@gmail.com",
     "contributedAt": "2026-03-17T17:22:45.368Z",
@@ -344,163 +109,36 @@
     "totalPages": 351,
     "audioDurationSecs": 41280,
     "readingFormat": "physical",
+    "audioStartPage": null,
+    "audioEndPage": null,
+    "audioBookNumber": null,
     "syncMap": [
-      {
-        "page": 1,
-        "chapter": "1",
-        "seconds": 20,
-        "chapterIndex": 0
-      },
-      {
-        "page": 15,
-        "chapter": "2",
-        "seconds": 1532,
-        "chapterIndex": 1
-      },
-      {
-        "page": 31,
-        "chapter": "3",
-        "seconds": 3325,
-        "chapterIndex": 2
-      },
-      {
-        "page": 38,
-        "chapter": "4",
-        "seconds": 4206,
-        "chapterIndex": 3
-      },
-      {
-        "page": 48,
-        "chapter": "5",
-        "seconds": 5256,
-        "chapterIndex": 4
-      },
-      {
-        "page": 59,
-        "chapter": "6",
-        "seconds": 6423,
-        "chapterIndex": 5
-      },
-      {
-        "page": 74,
-        "chapter": "7",
-        "seconds": 8142,
-        "chapterIndex": 6
-      },
-      {
-        "page": 91,
-        "chapter": "8",
-        "seconds": 10086,
-        "chapterIndex": 7
-      },
-      {
-        "page": 104,
-        "chapter": "9",
-        "seconds": 11623,
-        "chapterIndex": 8
-      },
-      {
-        "page": 119,
-        "chapter": "10",
-        "seconds": 13405,
-        "chapterIndex": 9
-      },
-      {
-        "page": 130,
-        "chapter": "11",
-        "seconds": 14704,
-        "chapterIndex": 10
-      },
-      {
-        "page": 139,
-        "chapter": "12",
-        "seconds": 15796,
-        "chapterIndex": 11
-      },
-      {
-        "page": 152,
-        "chapter": "13",
-        "seconds": 17231,
-        "chapterIndex": 12
-      },
-      {
-        "page": 163,
-        "chapter": "14",
-        "seconds": 18412,
-        "chapterIndex": 13
-      },
-      {
-        "page": 178,
-        "chapter": "15",
-        "seconds": 20207,
-        "chapterIndex": 14
-      },
-      {
-        "page": 192,
-        "chapter": "16",
-        "seconds": 21924,
-        "chapterIndex": 15
-      },
-      {
-        "page": 200,
-        "chapter": "17",
-        "seconds": 22894,
-        "chapterIndex": 16
-      },
-      {
-        "page": 218,
-        "chapter": "18",
-        "seconds": 25014,
-        "chapterIndex": 17
-      },
-      {
-        "page": 234,
-        "chapter": "19",
-        "seconds": 26868,
-        "chapterIndex": 18
-      },
-      {
-        "page": 253,
-        "chapter": "20",
-        "seconds": 29173,
-        "chapterIndex": 19
-      },
-      {
-        "page": 270,
-        "chapter": "21",
-        "seconds": 31288,
-        "chapterIndex": 20
-      },
-      {
-        "page": 289,
-        "chapter": "22",
-        "seconds": 33355,
-        "chapterIndex": 21
-      },
-      {
-        "page": 304,
-        "chapter": "23",
-        "seconds": 35285,
-        "chapterIndex": 22
-      },
-      {
-        "page": 315,
-        "chapter": "24",
-        "seconds": 36524,
-        "chapterIndex": 23
-      },
-      {
-        "page": 329,
-        "chapter": "25",
-        "seconds": 38273,
-        "chapterIndex": 24
-      },
-      {
-        "page": 340,
-        "chapter": "Epilogue",
-        "seconds": 39430,
-        "chapterIndex": 25
-      }
+      { "chapter": "1", "page": 1, "seconds": 20, "chapterIndex": 0 },
+      { "chapter": "2", "page": 15, "seconds": 1532, "chapterIndex": 1 },
+      { "chapter": "3", "page": 31, "seconds": 3325, "chapterIndex": 2 },
+      { "chapter": "4", "page": 38, "seconds": 4206, "chapterIndex": 3 },
+      { "chapter": "5", "page": 48, "seconds": 5256, "chapterIndex": 4 },
+      { "chapter": "6", "page": 59, "seconds": 6423, "chapterIndex": 5 },
+      { "chapter": "7", "page": 74, "seconds": 8142, "chapterIndex": 6 },
+      { "chapter": "8", "page": 91, "seconds": 10086, "chapterIndex": 7 },
+      { "chapter": "9", "page": 104, "seconds": 11623, "chapterIndex": 8 },
+      { "chapter": "10", "page": 119, "seconds": 13405, "chapterIndex": 9 },
+      { "chapter": "11", "page": 130, "seconds": 14704, "chapterIndex": 10 },
+      { "chapter": "12", "page": 139, "seconds": 15796, "chapterIndex": 11 },
+      { "chapter": "13", "page": 152, "seconds": 17231, "chapterIndex": 12 },
+      { "chapter": "14", "page": 163, "seconds": 18412, "chapterIndex": 13 },
+      { "chapter": "15", "page": 178, "seconds": 20207, "chapterIndex": 14 },
+      { "chapter": "16", "page": 192, "seconds": 21924, "chapterIndex": 15 },
+      { "chapter": "17", "page": 200, "seconds": 22894, "chapterIndex": 16 },
+      { "chapter": "18", "page": 218, "seconds": 25014, "chapterIndex": 17 },
+      { "chapter": "19", "page": 234, "seconds": 26868, "chapterIndex": 18 },
+      { "chapter": "20", "page": 253, "seconds": 29173, "chapterIndex": 19 },
+      { "chapter": "21", "page": 270, "seconds": 31288, "chapterIndex": 20 },
+      { "chapter": "22", "page": 289, "seconds": 33355, "chapterIndex": 21 },
+      { "chapter": "23", "page": 304, "seconds": 35285, "chapterIndex": 22 },
+      { "chapter": "24", "page": 315, "seconds": 36524, "chapterIndex": 23 },
+      { "chapter": "25", "page": 329, "seconds": 38273, "chapterIndex": 24 },
+      { "chapter": "Epilogue", "page": 340, "seconds": 39430, "chapterIndex": 25 }
     ],
     "contributedBy": "scadams1111@gmail.com",
     "contributedAt": "2026-03-17T17:23:25.412Z",
