@@ -319,164 +319,190 @@
     "syncMap": [
       {
         "chapter": "1",
-        "page": 1,
         "seconds": 20,
+        "page": 1,
         "chapterIndex": 0
       },
       {
         "chapter": "2",
-        "page": 15,
         "seconds": 1532,
+        "page": 15,
         "chapterIndex": 1
       },
       {
         "chapter": "3",
-        "page": 31,
         "seconds": 3325,
+        "page": 31,
         "chapterIndex": 2
       },
       {
         "chapter": "4",
-        "page": 38,
         "seconds": 4206,
+        "page": 38,
         "chapterIndex": 3
       },
       {
         "chapter": "5",
-        "page": 48,
         "seconds": 5256,
+        "page": 48,
         "chapterIndex": 4
       },
       {
         "chapter": "6",
-        "page": 59,
         "seconds": 6423,
+        "page": 59,
         "chapterIndex": 5
       },
       {
         "chapter": "7",
-        "page": 74,
         "seconds": 8142,
+        "page": 74,
         "chapterIndex": 6
       },
       {
         "chapter": "8",
-        "page": 91,
         "seconds": 10086,
+        "page": 91,
         "chapterIndex": 7
       },
       {
         "chapter": "9",
-        "page": 104,
         "seconds": 11623,
+        "page": 104,
         "chapterIndex": 8
       },
       {
         "chapter": "10",
-        "page": 119,
         "seconds": 13405,
+        "page": 119,
         "chapterIndex": 9
       },
       {
         "chapter": "11",
-        "page": 130,
         "seconds": 14704,
+        "page": 130,
         "chapterIndex": 10
       },
       {
         "chapter": "12",
-        "page": 139,
         "seconds": 15796,
+        "page": 139,
         "chapterIndex": 11
       },
       {
+        "chapter": "12",
+        "seconds": 16598,
+        "page": 146
+      },
+      {
+        "chapter": "12",
+        "seconds": 16720,
+        "page": 147
+      },
+      {
         "chapter": "13",
-        "page": 152,
         "seconds": 17231,
+        "page": 152,
         "chapterIndex": 12
       },
       {
         "chapter": "14",
-        "page": 163,
         "seconds": 18412,
+        "page": 163,
         "chapterIndex": 13
       },
       {
         "chapter": "15",
-        "page": 178,
         "seconds": 20207,
+        "page": 178,
         "chapterIndex": 14
       },
       {
         "chapter": "16",
-        "page": 192,
         "seconds": 21924,
+        "page": 192,
         "chapterIndex": 15
       },
       {
         "chapter": "17",
-        "page": 200,
         "seconds": 22894,
+        "page": 200,
         "chapterIndex": 16
       },
       {
         "chapter": "18",
-        "page": 218,
         "seconds": 25014,
+        "page": 218,
         "chapterIndex": 17
       },
       {
         "chapter": "19",
-        "page": 234,
         "seconds": 26868,
+        "page": 234,
         "chapterIndex": 18
       },
       {
-        "chapter": "20",
-        "page": 253,
-        "seconds": 29173,
+        "chapter": "19",
+        "seconds": 28807,
+        "page": 248,
         "chapterIndex": 19
       },
       {
-        "chapter": "21",
-        "page": 270,
-        "seconds": 31288,
+        "chapter": "20",
+        "seconds": 29173,
+        "page": 253,
         "chapterIndex": 20
       },
       {
-        "chapter": "22",
-        "page": 289,
-        "seconds": 33355,
+        "chapter": "20",
+        "seconds": 29873,
+        "page": 258
+      },
+      {
+        "chapter": "21",
+        "seconds": 31288,
+        "page": 270,
         "chapterIndex": 21
       },
       {
-        "chapter": "23",
-        "page": 304,
-        "seconds": 35285,
+        "chapter": "22",
+        "seconds": 33355,
+        "page": 289,
         "chapterIndex": 22
       },
       {
-        "chapter": "24",
-        "page": 315,
-        "seconds": 36524,
+        "chapter": "23",
+        "seconds": 35285,
+        "page": 304,
         "chapterIndex": 23
       },
       {
-        "chapter": "25",
-        "page": 329,
-        "seconds": 38273,
+        "chapter": "23",
+        "seconds": 36189,
+        "page": 311
+      },
+      {
+        "chapter": "24",
+        "seconds": 36524,
+        "page": 315,
         "chapterIndex": 24
       },
       {
-        "chapter": "Epilogue",
-        "page": 340,
-        "seconds": 39430,
+        "chapter": "25",
+        "seconds": 38273,
+        "page": 329,
         "chapterIndex": 25
+      },
+      {
+        "chapter": "Epilogue",
+        "seconds": 39430,
+        "page": 340,
+        "chapterIndex": 26
       }
     ],
     "contributedBy": "scadams1111@gmail.com",
-    "contributedAt": "2026-03-17T17:23:25.412Z",
-    "priorAnchorCount": 0
+    "contributedAt": "2026-03-29T02:30:43.261Z",
+    "priorAnchorCount": 26
   },
   "9780765319234": {
     "editionKey": "9780765319234",
